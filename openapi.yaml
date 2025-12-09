@@ -1,0 +1,76 @@
+openapi: 3.0.4
+info:
+  title: Base64 Encoder/Decoder
+  description: Base64 Encoder/Decoder is a simple tool for encoding and decoding Base64 strings. It supports both encoding text to Base64 and decoding Base64 back to text.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.9
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+- url: https://api.apiverve.com/
+paths:
+  /v1/base64:
+    get:
+      summary: Encode/Decode Base64
+      description: Base64 Encoder/Decoder is a simple tool for encoding and decoding Base64 strings. It supports both encoding text to Base64 and decoding Base64 back to text.
+      operationId: base64
+      parameters:
+      - name: text
+        in: query
+        schema:
+          type: string
+        required: true
+        description: The text to encode or Base64 string to decode
+        example: Hello World
+      - name: action
+        default: encode
+        in: query
+        schema:
+          type: string
+        required: false
+        description: "The action to perform: 'encode' or 'decode' (default: encode)"
+        example: encode
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: string
+                    description: data
+              example:
+                status: ok
+                error: 
+                data:
+                  action: encode
+                  original: Hello World
+                  encoded: SGVsbG8gV29ybGQ=
+                  length: 16
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occured, try again later
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+- api_key: []
