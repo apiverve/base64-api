@@ -7,7 +7,7 @@ declare module '@apiverve/base64' {
   export interface base64Response {
     status: string;
     error: string | null;
-    data: Base64Encoder/DecoderData;
+    data: Base64EncoderDecoderData;
     code?: number;
   }
 
