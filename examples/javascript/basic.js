@@ -13,13 +13,7 @@ const API_URL = 'https://api.apiverve.com/v1/base64';
  */
 async function callBase64Encoder/DecoderAPI() {
   try {
-    // Query parameters
-    const params &#x3D; new URLSearchParams({
-            text: &#x27;Hello World&#x27;,
-            action: &#x27;encode&#x27;
-        });
-
-    const response = await fetch(`${API_URL}?${params}`, {
+    const response = await fetch(API_URL, {
       method: 'GET',
       headers: {
         'x-api-key': API_KEY
