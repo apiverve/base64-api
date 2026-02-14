@@ -6,7 +6,7 @@
 //
 //    var responseObj = ResponseObj.FromJson(jsonString);
 
-namespace APIVerve.API.Base64Encoder/Decoder
+namespace APIVerve.API.Base64EncoderDecoder
 {
     using System;
     using System.Collections.Generic;
