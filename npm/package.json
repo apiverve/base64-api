@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/base64",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Base64 Encoder/Decoder is a simple tool for encoding and decoding Base64 strings. It supports both encoding text to Base64 and decoding Base64 back to text.",
   "main": "index.js",
   "types": "index.d.ts",
