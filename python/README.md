@@ -44,7 +44,10 @@ from apiverve_base64encoder/decoder.apiClient import Base64APIClient
 # Initialize the client with your APIVerve API key
 api = Base64APIClient("[YOUR_API_KEY]")
 
-query = { "text": "Hello World", "action": "encode" }
+query = {
+    "text": "Hello World",
+    "action": "encode"
+}
 
 try:
     # Make the API call
@@ -82,7 +85,10 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```python
-query = { "text": "Hello World", "action": "encode" }
+query = {
+    "text": "Hello World",
+    "action": "encode"
+}
 ```
 
 ###### Simple Request
@@ -123,7 +129,10 @@ from apiverve_base64encoder/decoder.apiClient import Base64APIClient, Base64APIC
 
 api = Base64APIClient("[YOUR_API_KEY]")
 
-query = { "text": "Hello World", "action": "encode" }
+query = {
+    "text": "Hello World",
+    "action": "encode"
+}
 
 try:
     result = api.execute(query)
@@ -144,7 +153,10 @@ from apiverve_base64encoder/decoder.apiClient import Base64APIClient, Base64APIC
 
 api = Base64APIClient("[YOUR_API_KEY]")
 
-query = { "text": "Hello World", "action": "encode" }
+query = {
+    "text": "Hello World",
+    "action": "encode"
+}
 
 try:
     result = api.execute(query)
@@ -178,7 +190,10 @@ The client supports the context manager protocol for automatic resource cleanup:
 ```python
 from apiverve_base64encoder/decoder.apiClient import Base64APIClient, Base64APIClientError
 
-query = { "text": "Hello World", "action": "encode" }
+query = {
+    "text": "Hello World",
+    "action": "encode"
+}
 
 # Using context manager ensures proper cleanup
 with Base64APIClient("[YOUR_API_KEY]") as api:
@@ -204,7 +219,10 @@ from apiverve_base64encoder/decoder.apiClient import Base64APIClient
 # Enable debug mode
 api = Base64APIClient("[YOUR_API_KEY]", debug=True)
 
-query = { "text": "Hello World", "action": "encode" }
+query = {
+    "text": "Hello World",
+    "action": "encode"
+}
 
 # Debug information will be printed to console
 result = api.execute(query)
@@ -219,8 +237,12 @@ from apiverve_base64encoder/decoder.apiClient import Base64APIClient
 
 api = Base64APIClient("[YOUR_API_KEY]")
 
+query = {
+    "text": "Hello World",
+    "action": "encode"
+}
+
 try:
-    query = { "text": "Hello World", "action": "encode" }
     result = api.execute(query)
     print(result)
 finally:
