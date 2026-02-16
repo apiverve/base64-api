@@ -26,7 +26,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.apiverve:base64-api:1.1.13'
+    implementation 'com.github.apiverve:base64-api:1.1.14'
 }
 ```
 
