@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/base64",
-  "version": "1.2.0",
-  "description": "Base64 Encoder/Decoder is a simple tool for encoding and decoding Base64 strings. It supports both encoding text to Base64 and decoding Base64 back to text.",
+  "version": "1.2.2",
+  "description": "Base64 Encoder/Decoder encodes plain text into Base64 and decodes encoded strings back to readable characters. Submit any string with an encode or decode action to receive the converted output, the original input, and character length.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "base64", "base64 encode", "base64 decode", "encoding", "decoding"
+    "base64 api", "base64 encode api", "base64 decode api", "base64 converter api", "base64 to json"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/base64-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/base64?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/base64?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
