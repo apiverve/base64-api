@@ -1,13 +1,12 @@
 Base64 Encoder/Decoder API
 ============
 
-Base64 Encoder/Decoder is a simple tool for encoding and decoding Base64 strings. It supports both encoding text to Base64 and decoding Base64 back to text.
+Base64 Encoder/Decoder encodes plain text into Base64 and decodes encoded strings back to readable characters. Submit any string with an encode or decode action to receive the converted output, the original input, and character length.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Base64 Encoder/Decoder API](https://apiverve.com/marketplace/base64?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-base64encoderdecoder.svg)](https://pypi.org/project/apiverve-base64encoderdecoder/)
+
+This is a Python wrapper for the [Base64 Encoder/Decoder API](https://apiverve.com/marketplace/base64?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -16,21 +15,21 @@ This is a Python API Wrapper for the [Base64 Encoder/Decoder API](https://apiver
 Using `pip`:
 
 ```bash
-pip install apiverve-base64encoder/decoder
+pip install apiverve-base64encoderdecoder
 ```
 
 Using `pip3`:
 
 ```bash
-pip3 install apiverve-base64encoder/decoder
+pip3 install apiverve-base64encoderdecoder
 ```
 
 ---
 
 ## Configuration
 
-Before using the base64 API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Base64 Encoder/Decoder API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -39,7 +38,7 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_
 Here's a simple example to get you started quickly:
 
 ```python
-from apiverve_base64encoder/decoder.apiClient import Base64APIClient
+from apiverve_base64encoderdecoder.apiClient import Base64APIClient
 
 # Initialize the client with your APIVerve API key
 api = Base64APIClient("[YOUR_API_KEY]")
@@ -63,14 +62,14 @@ except Exception as e:
 
 ## Usage
 
-The Base64 Encoder/Decoder API documentation is found here: [https://docs.apiverve.com/ref/base64](https://docs.apiverve.com/ref/base64?utm_source=pypi&utm_medium=readme).
+The Base64 Encoder/Decoder API documentation is found here: [https://docs.apiverve.com/ref/base64](https://docs.apiverve.com/ref/base64?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ```python
 # Import the client module
-from apiverve_base64encoder/decoder.apiClient import Base64APIClient
+from apiverve_base64encoderdecoder.apiClient import Base64APIClient
 
 # Initialize the client with your APIVerve API key
 api = Base64APIClient("[YOUR_API_KEY]")
@@ -125,7 +124,7 @@ The API client provides comprehensive error handling through the `Base64APIClien
 ### Basic Error Handling
 
 ```python
-from apiverve_base64encoder/decoder.apiClient import Base64APIClient, Base64APIClientError
+from apiverve_base64encoderdecoder.apiClient import Base64APIClient, Base64APIClientError
 
 api = Base64APIClient("[YOUR_API_KEY]")
 
@@ -149,7 +148,7 @@ except Base64APIClientError as e:
 ### Handling Specific Error Types
 
 ```python
-from apiverve_base64encoder/decoder.apiClient import Base64APIClient, Base64APIClientError
+from apiverve_base64encoderdecoder.apiClient import Base64APIClient, Base64APIClientError
 
 api = Base64APIClient("[YOUR_API_KEY]")
 
@@ -188,7 +187,7 @@ except Exception as e:
 The client supports the context manager protocol for automatic resource cleanup:
 
 ```python
-from apiverve_base64encoder/decoder.apiClient import Base64APIClient, Base64APIClientError
+from apiverve_base64encoderdecoder.apiClient import Base64APIClient, Base64APIClientError
 
 query = {
     "text": "Hello World",
@@ -214,7 +213,7 @@ with Base64APIClient("[YOUR_API_KEY]") as api:
 Enable debug logging to see detailed request and response information:
 
 ```python
-from apiverve_base64encoder/decoder.apiClient import Base64APIClient
+from apiverve_base64encoderdecoder.apiClient import Base64APIClient
 
 # Enable debug mode
 api = Base64APIClient("[YOUR_API_KEY]", debug=True)
@@ -233,7 +232,7 @@ result = api.execute(query)
 If you need to manually manage the session lifecycle:
 
 ```python
-from apiverve_base64encoder/decoder.apiClient import Base64APIClient
+from apiverve_base64encoderdecoder.apiClient import Base64APIClient
 
 api = Base64APIClient("[YOUR_API_KEY]")
 
@@ -254,7 +253,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -265,12 +264,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
