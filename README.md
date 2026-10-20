@@ -1,13 +1,13 @@
-# [Base64 Encoder/Decoder API](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Base64 Encoder/Decoder API](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Base64 Encoder/Decoder is a simple tool for encoding and decoding Base64 strings. It supports both encoding text to Base64 and decoding Base64 back to text.
+Base64 Encoder/Decoder encodes plain text into Base64 and decodes encoded strings back to readable characters. Submit any string with an encode or decode action to receive the converted output, the original input, and character length.
 
 The Base64 Encoder/Decoder API provides a simple, reliable way to integrate base64 encoder/decoder functionality into your applications. Built for developers who need production-ready base64 encoder/decoder capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -162,7 +162,7 @@ go get github.com/apiverve/base64-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Base64 Encoder/Decoder API](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Base64 Encoder/Decoder API](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/base64](https://docs.apiverve.com/ref/base64)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -224,7 +224,7 @@ A real response from the Base64 Encoder/Decoder API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Base64 Encoder/Decoder API](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Base64 Encoder/Decoder API](https://apiverve.com/marketplace/base64?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
