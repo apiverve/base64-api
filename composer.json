@@ -1,7 +1,7 @@
 {
     "name": "apiverve/base64",
-    "description": "Base64 Encoder/Decoder is a simple tool for encoding and decoding Base64 strings. It supports both encoding text to Base64 and decoding Base64 back to text.",
-    "version": "1.2.0",
+    "description": "Base64 Encoder/Decoder encodes plain text into Base64 and decodes encoded strings back to readable characters. Submit any string with an encode or decode action to receive the converted output, the original input, and character length.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "base64",
-        "base64",
-        "base64 encode",
-        "base64 decode",
-        "encoding",
-        "decoding"
+        "base64 api",
+        "base64 encode api",
+        "base64 decode api",
+        "base64 converter api",
+        "base64 to json"
     ],
-    "homepage": "https://apiverve.com/marketplace/base64?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/base64?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/base64",
