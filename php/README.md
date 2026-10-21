@@ -1,6 +1,6 @@
 # Base64 Encoder/Decoder API - PHP Package
 
-Base64 Encoder/Decoder is a simple tool for encoding and decoding Base64 strings. It supports both encoding text to Base64 and decoding Base64 back to text.
+Base64 Encoder/Decoder encodes plain text into Base64 and decodes encoded strings back to readable characters. Submit any string with an encode or decode action to receive the converted output, the original input, and character length.
 
 ## Installation
 
@@ -87,11 +87,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/base64?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/base64?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/base64?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/base64?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/base64?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/base64?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
