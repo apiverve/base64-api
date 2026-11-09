@@ -4,6 +4,6 @@ require_relative "apiverve_base64/client"
 
 module APIVerve
   module Base64
-    VERSION = "1.2.4"
+    VERSION = "1.2.5"
   end
 end
